@@ -2,6 +2,9 @@
 
 This is a Image Whitelist Docker plugin implementation based on Authorization. Using this plugin will limit the images that can be run on the host. The plugin will look for the allowed images from the whitelist before an image can be run.
 
+![wlplugin.png]({{site.baseurl}}/wlplugin.png)
+
+
 ## Fastway to try (container)
 1. download plugin and server container from docker hub
   - docker pull fairus/wlserver:v1
@@ -20,8 +23,3 @@ This is a Image Whitelist Docker plugin implementation based on Authorization. U
   - copy out the file: docker cp [wlserver]:whitelist.dat whitelist.dat
   - update whitelist.dat with image id
   - copy inn the file: docker cp whitelist.dat [wlserver]:whitelist.dat
-
-
-
-
-
