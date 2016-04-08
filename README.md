@@ -2,7 +2,7 @@
 
 This is a Image Whitelist Docker plugin implementation based on Authorization. Using this plugin will limit the images that can be run on the host. The plugin will look for the allowed images from the whitelist before an image can be run.
 
-![wlplugin.png]({{site.baseurl}}/wlplugin.png)
+![wlplugin.png](/wlplugin.png)
 
 
 ## Fastway to try (container)
