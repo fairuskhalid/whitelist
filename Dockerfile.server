@@ -1,0 +1,4 @@
+FROM scratch
+ADD wlserver /
+ADD whitelist.dat /
+CMD ["/wlserver"]
